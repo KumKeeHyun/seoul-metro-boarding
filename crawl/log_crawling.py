@@ -28,7 +28,7 @@ class makedate:
 # In[16]:
 
 
-key = 'open api key'
+key = 'open api key' 
 _url = 'http://openapi.seoul.go.kr:8088/' + key + '/json/CardSubwayStatsNew/'#1/5/20151101
 
 # date : makedate.get_date_iso()

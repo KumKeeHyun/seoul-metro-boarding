@@ -1,0 +1,74 @@
+{
+	"settings" : {
+		"analysis" : {
+			"analyzer" : {
+				"nori" : {
+					"tokenizer":"nori_t_discard",
+					"filter" : "my_shingle"
+				}
+			},
+			"tokenizer" : {
+				"nori_t_discard" : {
+					"type" : "nori_tokenizer",
+					"decompund_mode" : "discard"
+				}
+			},
+			"filter" : {
+				"my_shingle" : {
+					"type" : "shingle",
+					"token_separator" : "",
+					"max_shingle_size" : 3
+				}
+			}
+		}
+	},
+    "mappings" : {
+      "metro" : {
+        "properties" : {
+          "@timestamp" : {
+            "type" : "date"
+          },
+          "code" : {
+            "type" : "keyword"
+          },
+          "line_num" : {
+            "type" : "keyword"
+          },
+          "location" : {
+		  	  "type" : "geo_point"
+          },
+          "people" : {
+            "properties" : {
+              "in" : {
+                "type" : "integer"
+              },
+              "out" : {
+                "type" : "integer"
+              },
+              "total" : {
+                "type" : "integer"
+              }
+            }
+          },
+          "station" : {
+            "properties" : {
+              "name" : {
+                "type" : "text",
+                "fields" : {
+				  "nori" : {
+				    "type" : "text",
+					"analyzer" : "nori",
+					"search_analyzer" : "standard"
+				  },
+                  "keyword" : {
+                    "type" : "keyword",
+                    "ignore_above" : 256
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+}
