@@ -1,0 +1,18 @@
+[
+  {
+    "_id": "9458a4a0-b9c3-11ea-a0b8-d530191c199b",
+    "_type": "dashboard",
+    "_source": {
+      "title": "seoul metro",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"embeddableConfig\":{},\"gridData\":{\"x\":24,\"y\":0,\"w\":24,\"h\":15,\"i\":\"1\"},\"id\":\"d4d655d0-b9bf-11ea-a0b8-d530191c199b\",\"panelIndex\":\"1\",\"type\":\"visualization\",\"version\":\"6.7.0\"},{\"embeddableConfig\":{\"mapCenter\":[37.51190453731693,126.94255828857423],\"mapZoom\":12},\"gridData\":{\"x\":0,\"y\":8,\"w\":24,\"h\":22,\"i\":\"2\"},\"id\":\"2c0d9b20-b8fc-11ea-a0b8-d530191c199b\",\"panelIndex\":\"2\",\"type\":\"visualization\",\"version\":\"6.7.0\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":36,\"y\":15,\"w\":12,\"h\":7,\"i\":\"3\"},\"id\":\"5bc22150-b9c0-11ea-a0b8-d530191c199b\",\"panelIndex\":\"3\",\"type\":\"visualization\",\"version\":\"6.7.0\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":24,\"y\":15,\"w\":12,\"h\":15,\"i\":\"4\"},\"id\":\"ffb816f0-b9c2-11ea-a0b8-d530191c199b\",\"panelIndex\":\"4\",\"type\":\"visualization\",\"version\":\"6.7.0\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":0,\"y\":0,\"w\":24,\"h\":8,\"i\":\"5\"},\"id\":\"b9d632e0-b9c5-11ea-a0b8-d530191c199b\",\"panelIndex\":\"5\",\"type\":\"visualization\",\"version\":\"6.7.0\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":36,\"y\":22,\"w\":12,\"h\":8,\"i\":\"6\"},\"id\":\"312fc9a0-b9c6-11ea-a0b8-d530191c199b\",\"panelIndex\":\"6\",\"type\":\"visualization\",\"version\":\"6.7.0\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":0,\"y\":30,\"w\":24,\"h\":15,\"i\":\"7\"},\"id\":\"ff7b5e40-b9d1-11ea-a0b8-d530191c199b\",\"panelIndex\":\"7\",\"type\":\"visualization\",\"version\":\"6.7.0\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":24,\"y\":30,\"w\":12,\"h\":15,\"i\":\"8\"},\"id\":\"f478a500-ba87-11ea-8dcd-1b475580dd9f\",\"panelIndex\":\"8\",\"type\":\"visualization\",\"version\":\"6.7.0\"},{\"gridData\":{\"x\":36,\"y\":30,\"w\":12,\"h\":15,\"i\":\"9\"},\"version\":\"6.7.0\",\"panelIndex\":\"9\",\"type\":\"visualization\",\"id\":\"42ea6520-baa1-11ea-8dcd-1b475580dd9f\",\"embeddableConfig\":{}}]",
+      "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":true}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"controlledBy\":\"1593407076540\",\"disabled\":false,\"index\":\"aaedba70-b8fb-11ea-a0b8-d530191c199b\",\"key\":\"people.total\",\"negate\":false,\"params\":{\"gte\":30000,\"lte\":40000},\"type\":\"range\",\"value\":\"30,000 to 40,000\"},\"range\":{\"people.total\":{\"gte\":30000,\"lte\":40000}}}]}"
+      }
+    }
+  }
+]
