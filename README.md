@@ -2,10 +2,10 @@
 Elasticsearch, Kibana를 이용한 서울 지하철 승하차 인원 모티너링, 분석하는 토이 프로젝트
 
 ## output
++ 데이터 실시간 시각화
+![crawling_march](https://user-images.githubusercontent.com/44857109/86195600-38253700-bb8c-11ea-8eeb-e3ab6a1fec6a.gif)
 + 2020-02-03 ~ 2020-06-25 까지의 지하철 승하차 인원에 대한 대시보드
-![dashboard1](https://user-images.githubusercontent.com/44857109/85985255-705e3580-ba25-11ea-998e-b9851923182a.png)
-+ 2020년 2월 중에서 1호선, 2호선, 7호선의 데이터
-![dashboard2](https://user-images.githubusercontent.com/44857109/85985302-85d35f80-ba25-11ea-83f3-5228400a50be.png)
+![dash1](https://user-images.githubusercontent.com/44857109/86195587-32c7ec80-bb8c-11ea-8c85-ea0d8d651d7d.PNG)
 
 ## crawling
 서울시 공공데이터 open api 데이터를 크롤링
